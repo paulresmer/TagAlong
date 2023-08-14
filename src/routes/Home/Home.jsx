@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <NavBar />
-      <Hero
+      <Hero>
         cName='hero'
         heroImg='src/assets/grey-grid.jpg'
         title='your journey your story'
@@ -13,7 +13,7 @@ function Home() {
         buttonText='travel plan'
         url='/'
         btnClass='show'
-      />
+      </Hero>
     </>
   )
 }
