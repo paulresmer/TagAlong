@@ -1,4 +1,4 @@
-.hero {
+.header {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -10,7 +10,7 @@ img {
   object-fit: cover;
 }
 
-.hero-text {
+.header-text {
   position: absolute;
   top: 55%;
   left: 50%;
@@ -18,21 +18,21 @@ img {
   width: 100%;
 }
 
-.hero-text h1 {
+.header-text h1 {
   font-size: 3rem;
   font-weight: 800;
-  background: #fff;
+  background: #222;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.hero-text p {
+.header-text p {
   font-size: 1.3rem;
-  background: #fff;
+  color: #222;
   padding: 0.5rem 0 2rem 0;
 }
 
-.hero-text .show {
+.header-text .show {
   text-decoration: none;
   background: #fff;
   padding: 1rem 2rem;
@@ -43,20 +43,23 @@ img {
   color: #222;
 }
 
+.header-text .hide {
+  display: none;
+}
+
 @media screen and (max-width: 555px) {
-  .hero-text h1 {
+  .header-text h1 {
     padding: 10px 20px;
   }
 
-  .hero-text p {
+  .header-text p {
     font-size: 1.1rem;
     padding: 0 0 2rem 0;
   }
 
-  .hero-text .show {
+  .header-text .show {
     padding: .6rem 1.1rem;
     border-radius: 6px;
     font-size: 1rem;
   }
 }
-

@@ -1,13 +1,13 @@
-import './Hero.css';
+import './Header.css';
 
-function Hero(props) {
+function Header(props) {
   return (
     <>
       <div className={props.cName}>
-        <img alt='heroimg' src={props.heroImg} />
+        <img alt='headerimg' src={props.headerImg} />
       </div>
 
-      <div className='hero-text'>
+      <div className='header-text'>
         <h1>{props.title}</h1>
 
         <p>{props.text}</p>
@@ -18,4 +18,4 @@ function Hero(props) {
   );
 }
 
-export default Hero;
+export default Header;

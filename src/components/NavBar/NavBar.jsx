@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './NavBar.css';
-import { MenuItems } from '../MenuItems/MenuItems';
+import { MenuItems } from './MenuItems.jsx';
 import { Link } from 'react-router-dom';
 
 class NavBar extends Component {

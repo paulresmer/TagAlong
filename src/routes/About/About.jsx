@@ -1,19 +1,16 @@
-import Hero from '../../components/Hero/Hero';
+import Header from '../../components/Header/Header';
 import NavBar from '../../components/NavBar/NavBar';
 
 function About() {
   return (
     <>
       <NavBar />
-      <Hero>
-        cName='hero'
-        heroImg='src/assets/grey-grid.jpg'
-        title='your journey your story'
-        text='choose your fav destination'
-        buttonText='travel plan'
-        url='/'
-        btnClass='show'
-      </Hero>
+      <Header
+        cName='header'
+        headerImg='src/assets/grey-grid.jpg'
+        title='about'
+        btnClass='hide'
+      />
     </>
   )
 }
